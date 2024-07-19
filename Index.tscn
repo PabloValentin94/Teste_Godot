@@ -5,7 +5,78 @@
 
 [node name="Index" type="Node2D"]
 
-[node name="Image" type="Sprite2D" parent="."]
-position = Vector2(583, 319)
+[node name="Floor" type="ColorRect" parent="."]
+offset_left = -7.0
+offset_top = -6.0
+offset_right = 1158.0
+offset_bottom = 651.0
+color = Color(0.495881, 0.356449, 0.232831, 1)
+
+[node name="River" type="ColorRect" parent="."]
+offset_left = 722.0
+offset_top = -9.0
+offset_right = 1390.0
+offset_bottom = 268.0
+rotation = 1.57053
+color = Color(0, 0.427451, 0.8, 1)
+
+[node name="Bush" type="ColorRect" parent="."]
+offset_left = 53.0
+offset_top = 39.0
+offset_right = 120.0
+offset_bottom = 106.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush2" type="ColorRect" parent="."]
+offset_left = 280.0
+offset_top = 118.0
+offset_right = 347.0
+offset_bottom = 185.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush3" type="ColorRect" parent="."]
+offset_left = 320.0
+offset_top = 506.0
+offset_right = 387.0
+offset_bottom = 573.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush4" type="ColorRect" parent="."]
+offset_left = 59.0
+offset_top = 463.0
+offset_right = 126.0
+offset_bottom = 530.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush5" type="ColorRect" parent="."]
+offset_left = 783.0
+offset_top = 56.0
+offset_right = 850.0
+offset_bottom = 123.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush6" type="ColorRect" parent="."]
+offset_left = 1010.0
+offset_top = 135.0
+offset_right = 1077.0
+offset_bottom = 202.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush7" type="ColorRect" parent="."]
+offset_left = 1050.0
+offset_top = 523.0
+offset_right = 1117.0
+offset_bottom = 590.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Bush8" type="ColorRect" parent="."]
+offset_left = 789.0
+offset_top = 480.0
+offset_right = 856.0
+offset_bottom = 547.0
+color = Color(0, 0.501961, 0, 1)
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(205, 323)
 texture = ExtResource("1_s5c2v")
 script = ExtResource("2_y7dkl")
